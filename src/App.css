@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.cards-container {
+  margin-top: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
